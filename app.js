@@ -97,3 +97,20 @@ categorySelect.addEventListener("change", applyFilters);
 
 populateCategories();
 applyFilters();
+
+
+const tabs = document.querySelectorAll(".tab");
+const panels = document.querySelectorAll(".panel");
+
+function activateTab(name) {
+  tabs.forEach((tab) => {
+    tab.classList.toggle("is-active", tab.dataset.tab === name);
+  });
+  panels.forEach((panel) => {
+    panel.classList.toggle("hidden", panel.dataset.panel !== name);
+  });
+}
+
+tabs.forEach((tab) => {
+  tab.addEventListener("click", () => activateTab(tab.dataset.tab));
+});

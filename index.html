@@ -3,26 +3,107 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CasaDelGato</title>
-    <meta name="description" content="CasaDelGato listings explorer" />
+    <title>Casa Del Gato Antiques</title>
+    <meta
+      name="description"
+      content="Casa Del Gato Antiques: vintage finds, collecting guides, and antique identification tips."
+    />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <header class="site-header">
-      <h1>CasaDelGato</h1>
-      <p>Shop curated finds from CasaDelGato.</p>
+      <div class="header-inner container">
+        <p class="eyebrow">Casa Del Gato Antiques</p>
+        <h1>Warm, Cozy Finds from the Catman Collection</h1>
+        <p class="tagline">
+          A tribute to Uncle Matt ("Catman") and his lifelong love for collecting character-filled treasures.
+        </p>
+        <p class="store-description">
+          Listing an extensive collection of vintage silverplated flatware, Depression Glass, McKoy,
+          Bauer, Luray and other art pottery, plus a myriad of other odds and ends picked up along the
+          way.
+        </p>
+      </div>
     </header>
 
     <main class="container">
-      <section class="controls">
-        <input id="searchInput" type="search" placeholder="Search listings..." aria-label="Search listings" />
-        <select id="categorySelect" aria-label="Filter by category">
-          <option value="all">All categories</option>
-        </select>
+      <nav class="tabs" aria-label="Site sections">
+        <button class="tab is-active" data-tab="shop" type="button">Shop Finds</button>
+        <button class="tab" data-tab="about" type="button">About Antiques</button>
+        <button class="tab" data-tab="guides" type="button">ID &amp; Learning Guides</button>
+      </nav>
+
+      <section class="panel" data-panel="shop">
+        <section class="controls">
+          <input id="searchInput" type="search" placeholder="Search listings..." aria-label="Search listings" />
+          <select id="categorySelect" aria-label="Filter by category">
+            <option value="all">All categories</option>
+          </select>
+        </section>
+
+        <section id="results" class="grid" aria-live="polite"></section>
+        <p id="emptyState" class="empty hidden">No listings match your filters.</p>
       </section>
 
-      <section id="results" class="grid" aria-live="polite"></section>
-      <p id="emptyState" class="empty hidden">No listings match your filters.</p>
+      <section class="panel hidden" data-panel="about">
+        <article class="content-card">
+          <h2>About Collecting Antiques</h2>
+          <p>
+            Antique collecting is part history, part craft, and part storytelling. Focus on learning a piece's
+            age, maker, condition, materials, and regional style before you buy.
+          </p>
+          <ul>
+            <li><strong>Start with periods:</strong> Georgian, Victorian, Arts &amp; Crafts, Art Nouveau, Art Deco, and Mid-Century Modern.</li>
+            <li><strong>Check condition honestly:</strong> look for repairs, replacements, heavy wear, and missing pieces.</li>
+            <li><strong>Provenance matters:</strong> old receipts, family records, and labels add context and value.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="panel hidden" data-panel="guides">
+        <h2>Identification &amp; Classification Guides</h2>
+        <div class="guide-grid">
+          <article class="guide-card">
+            <h3>Art Period Basics</h3>
+            <p>Learn quick visual clues for major decorative eras and pottery styles.</p>
+            <ul>
+              <li>Art Nouveau: flowing botanical lines.</li>
+              <li>Art Deco: symmetry, geometry, bold contrast.</li>
+              <li>Mid-Century: clean forms and minimal ornament.</li>
+            </ul>
+          </article>
+
+          <article class="guide-card">
+            <h3>Silver &amp; Tin Workmen Stamps</h3>
+            <p>Use marks, plate wear, and pattern naming to separate plated from sterling pieces.</p>
+            <ul>
+              <li>Look for maker name, lion/passant symbols, or numeric standards.</li>
+              <li>EPNS / A1 often indicates silverplate.</li>
+              <li>Compare stamp style with documented hallmark charts.</li>
+            </ul>
+          </article>
+
+          <article class="guide-card">
+            <h3>Wood Furniture Marks</h3>
+            <p>Inspect underside and back panels for stamps, chalk notations, and joinery clues.</p>
+            <ul>
+              <li>Hand-cut dovetails suggest older craftsmanship.</li>
+              <li>Machine-perfect joints usually indicate newer production.</li>
+              <li>Patina should match wear patterns naturally.</li>
+            </ul>
+          </article>
+
+          <article class="guide-card">
+            <h3>Pottery Maker Spotting</h3>
+            <p>Great for McKoy, Bauer, Luray, and other art pottery families.</p>
+            <ul>
+              <li>Record base marks exactly as seen.</li>
+              <li>Check glaze color and shape catalogs.</li>
+              <li>Watch for recasts and modern reproductions.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
     </main>
 
     <template id="cardTemplate">
