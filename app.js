@@ -1,116 +1,13 @@
-const listings = [
-  {
-    id: "cdg-1",
-    title: "Vintage Cat Figurine",
-    category: "Decor",
-    price: 24.99,
-    image: "https://picsum.photos/seed/catfig/600/450",
-    url: "https://www.ebay.com"
-  },
-  {
-    id: "cdg-2",
-    title: "Handmade Cat Mug",
-    category: "Kitchen",
-    price: 19.5,
-    image: "https://picsum.photos/seed/catmug/600/450",
-    url: "https://www.ebay.com"
-  },
-  {
-    id: "cdg-3",
-    title: "Cozy Cat Blanket",
-    category: "Home",
-    price: 34,
-    image: "https://picsum.photos/seed/catblanket/600/450",
-    url: "https://www.ebay.com"
-  },
-  {
-    id: "cdg-4",
-    title: "Retro Cat Poster",
-    category: "Art",
-    price: 12,
-    image: "https://picsum.photos/seed/catposter/600/450",
-    url: "https://www.ebay.com"
-  }
+const EBAY_URL = 'https://www.ebay.com/str/casadelgatoantiques';
+const listingMockData = [
+ {title:'1930s Silverplate Service Tray with Scroll Edge',category:'Silverplate & Flatware',style:'Art Deco',material:'Silverplate',condition:'Good vintage wear',featured:true,price:'View on eBay'},
+ {title:'Cherry Blossom Depression Glass Bowl',category:'Depression Glass',style:'1930s American',material:'Glass',condition:'Excellent',featured:true,price:'View on eBay'},
+ {title:'McCoy Pottery Matte Glaze Vase',category:'McCoy Pottery',style:'Mid-Century Modern',material:'Ceramic',condition:'Minor glaze crazing',featured:false,price:'View on eBay'},
+ {title:'Hollywood Regency Brass Table Lamp Pair',category:'Hollywood Regency',style:'Hollywood Regency',material:'Brass',condition:'Patina present',featured:true,price:'View on eBay'},
+ {title:'LuRay Pastel Serving Platter',category:'LuRay Pottery',style:'Mid-Century',material:'Pottery',condition:'Very good',featured:false,price:'View on eBay'},
+ {title:'Walnut Side Table with Tapered Legs',category:'Furniture',style:'Mid-Century Modern',material:'Walnut',condition:'Light surface wear',featured:false,price:'View on eBay'}
 ];
-
-const searchInput = document.getElementById("searchInput");
-const categorySelect = document.getElementById("categorySelect");
-const results = document.getElementById("results");
-const emptyState = document.getElementById("emptyState");
-const cardTemplate = document.getElementById("cardTemplate");
-
-function formatPrice(value) {
-  return new Intl.NumberFormat("en-US", { style: "currency", currency: "USD" }).format(value);
-}
-
-function populateCategories() {
-  const categories = [...new Set(listings.map((item) => item.category))].sort();
-  for (const category of categories) {
-    const option = document.createElement("option");
-    option.value = category;
-    option.textContent = category;
-    categorySelect.appendChild(option);
-  }
-}
-
-function renderCards(items) {
-  results.innerHTML = "";
-
-  if (!items.length) {
-    emptyState.classList.remove("hidden");
-    return;
-  }
-
-  emptyState.classList.add("hidden");
-
-  const fragment = document.createDocumentFragment();
-  for (const item of items) {
-    const node = cardTemplate.content.cloneNode(true);
-    node.querySelector(".card-image").src = item.image;
-    node.querySelector(".card-image").alt = item.title;
-    node.querySelector(".card-title").textContent = item.title;
-    node.querySelector(".card-category").textContent = item.category;
-    node.querySelector(".card-price").textContent = formatPrice(item.price);
-    const link = node.querySelector(".card-link");
-    link.href = item.url;
-    fragment.appendChild(node);
-  }
-  results.appendChild(fragment);
-}
-
-function applyFilters() {
-  const query = searchInput.value.trim().toLowerCase();
-  const category = categorySelect.value;
-
-  const filtered = listings.filter((item) => {
-    const matchesQuery =
-      item.title.toLowerCase().includes(query) || item.category.toLowerCase().includes(query);
-    const matchesCategory = category === "all" || item.category === category;
-    return matchesQuery && matchesCategory;
-  });
-
-  renderCards(filtered);
-}
-
-searchInput.addEventListener("input", applyFilters);
-categorySelect.addEventListener("change", applyFilters);
-
-populateCategories();
-applyFilters();
-
-
-const tabs = document.querySelectorAll(".tab");
-const panels = document.querySelectorAll(".panel");
-
-function activateTab(name) {
-  tabs.forEach((tab) => {
-    tab.classList.toggle("is-active", tab.dataset.tab === name);
-  });
-  panels.forEach((panel) => {
-    panel.classList.toggle("hidden", panel.dataset.panel !== name);
-  });
-}
-
-tabs.forEach((tab) => {
-  tab.addEventListener("click", () => activateTab(tab.dataset.tab));
-});
+function ph(label){return `<div class="ph" role="img" aria-label="${label} placeholder image">${label}</div>`}
+function header(active='') {return `<header class="site-header"><div class="container nav-wrap"><a class="brand" href="index.html"><h1>Casa Del Gato Antiques</h1><p>The Catman Collection</p></a><button class="menu-btn" aria-label="Toggle navigation">Menu</button><nav class="nav-links"><a class="${active==='home'?'active':''}" href="index.html">Home</a><a class="${active==='shop'?'active':''}" href="shop.html">Shop</a><a class="${active==='learn'?'active':''}" href="learn.html">Learn</a><a class="${active==='id'?'active':''}" href="guides.html">Identification Guides</a><a class="${active==='deco'?'active':''}" href="art-deco.html">Art Deco</a><a class="${active==='mcm'?'active':''}" href="mid-century.html">Mid-Century Modern</a><a class="${active==='hr'?'active':''}" href="hollywood-regency.html">Hollywood Regency</a><a class="${active==='contact'?'active':''}" href="contact.html">Contact</a><a class="ebay-btn" target="_blank" rel="noopener" href="${EBAY_URL}">eBay Store</a></nav></div></header>`}
+function footer(){return `<footer class="footer"><div class="container footer-grid"><div><h3>Casa Del Gato Antiques</h3><p>Warm, credible, collectible-focused antiques and learning resources inspired by Uncle Matt “Catman.”</p><p><small>Educational content is provided for general collecting guidance and should not be considered a formal appraisal.</small></p><p>© Casa Del Gato Antiques</p></div><div><h4>Shop</h4><a href="shop.html">Listings</a></div><div><h4>Learn</h4><a href="learn.html">Learning Hub</a></div><div><h4>Contact</h4><a href="contact.html">Ask Matt</a><br/><a target="_blank" rel="noopener" href="${EBAY_URL}">Visit eBay</a></div></div></footer>`}
+function bootstrap(active){document.body.insertAdjacentHTML('afterbegin',header(active));document.body.insertAdjacentHTML('beforeend',footer());document.querySelector('.menu-btn')?.addEventListener('click',()=>document.querySelector('.nav-links').classList.toggle('open'));}
