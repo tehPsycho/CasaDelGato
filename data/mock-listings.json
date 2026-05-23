@@ -1,0 +1,650 @@
+[
+  {
+    "id": "cdg-001",
+    "ebayItemId": "EBAY00000001",
+    "title": "Mid-Century Porcelain Victorian Piece #1",
+    "description": "Curated victorian with rich patina, suitable for collectors and refined interiors.",
+    "price": 335,
+    "currency": "USD",
+    "images": [
+      "https://images.unsplash.com/photo-1500000000001?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1500000001001?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "category": "Victorian",
+    "condition": "Refurbished",
+    "shipping": "Calculated shipping",
+    "material": "Porcelain",
+    "era": "Mid-Century",
+    "ebayUrl": "https://www.ebay.com/itm/100000000001",
+    "tags": [
+      "Mid-Century",
+      "Porcelain",
+      "curated",
+      "casa-del-gato"
+    ],
+    "featured": false,
+    "createdAt": "2026-05-23T00:00:00.000Z",
+    "updatedAt": "2026-05-23T00:00:00.000Z"
+  },
+  {
+    "id": "cdg-002",
+    "ebayItemId": "EBAY00000002",
+    "title": "Georgian Revival Walnut Artwork Piece #2",
+    "description": "Curated artwork with rich patina, suitable for collectors and refined interiors.",
+    "price": 1541,
+    "currency": "USD",
+    "images": [
+      "https://images.unsplash.com/photo-1500000000002?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1500000001002?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "category": "Artwork",
+    "condition": "Refurbished",
+    "shipping": "Free shipping",
+    "material": "Walnut",
+    "era": "Georgian Revival",
+    "ebayUrl": "https://www.ebay.com/itm/100000000002",
+    "tags": [
+      "Georgian Revival",
+      "Walnut",
+      "curated",
+      "casa-del-gato"
+    ],
+    "featured": false,
+    "createdAt": "2026-05-23T00:00:00.000Z",
+    "updatedAt": "2026-05-23T00:00:00.000Z"
+  },
+  {
+    "id": "cdg-003",
+    "ebayItemId": "EBAY00000003",
+    "title": "Georgian Revival Giltwood Furniture Piece #3",
+    "description": "Curated furniture with rich patina, suitable for collectors and refined interiors.",
+    "price": 1257,
+    "currency": "USD",
+    "images": [
+      "https://images.unsplash.com/photo-1500000000003?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1500000001003?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "category": "Furniture",
+    "condition": "New old stock",
+    "shipping": "White-glove shipping",
+    "material": "Giltwood",
+    "era": "Georgian Revival",
+    "ebayUrl": "https://www.ebay.com/itm/100000000003",
+    "tags": [
+      "Georgian Revival",
+      "Giltwood",
+      "curated",
+      "casa-del-gato"
+    ],
+    "featured": false,
+    "createdAt": "2026-05-23T00:00:00.000Z",
+    "updatedAt": "2026-05-23T00:00:00.000Z"
+  },
+  {
+    "id": "cdg-004",
+    "ebayItemId": "EBAY00000004",
+    "title": "Mid-Century Bronze Clock Piece #4",
+    "description": "Curated clocks with rich patina, suitable for collectors and refined interiors.",
+    "price": 1141,
+    "currency": "USD",
+    "images": [
+      "https://images.unsplash.com/photo-1500000000004?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1500000001004?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "category": "Clocks",
+    "condition": "New old stock",
+    "shipping": "Free shipping",
+    "material": "Bronze",
+    "era": "Mid-Century",
+    "ebayUrl": "https://www.ebay.com/itm/100000000004",
+    "tags": [
+      "Mid-Century",
+      "Bronze",
+      "curated",
+      "casa-del-gato"
+    ],
+    "featured": true,
+    "createdAt": "2026-05-23T00:00:00.000Z",
+    "updatedAt": "2026-05-23T00:00:00.000Z"
+  },
+  {
+    "id": "cdg-005",
+    "ebayItemId": "EBAY00000005",
+    "title": "Belle \u00c9poque Brass Artwork Piece #5",
+    "description": "Curated artwork with rich patina, suitable for collectors and refined interiors.",
+    "price": 1873,
+    "currency": "USD",
+    "images": [
+      "https://images.unsplash.com/photo-1500000000005?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1500000001005?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "category": "Artwork",
+    "condition": "Used",
+    "shipping": "Free shipping",
+    "material": "Brass",
+    "era": "Belle \u00c9poque",
+    "ebayUrl": "https://www.ebay.com/itm/100000000005",
+    "tags": [
+      "Belle \u00c9poque",
+      "Brass",
+      "curated",
+      "casa-del-gato"
+    ],
+    "featured": false,
+    "createdAt": "2026-05-23T00:00:00.000Z",
+    "updatedAt": "2026-05-23T00:00:00.000Z"
+  },
+  {
+    "id": "cdg-006",
+    "ebayItemId": "EBAY00000006",
+    "title": "Art Deco Crystal Clock Piece #6",
+    "description": "Curated clocks with rich patina, suitable for collectors and refined interiors.",
+    "price": 2046,
+    "currency": "USD",
+    "images": [
+      "https://images.unsplash.com/photo-1500000000006?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1500000001006?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "category": "Clocks",
+    "condition": "Refurbished",
+    "shipping": "White-glove shipping",
+    "material": "Crystal",
+    "era": "Art Deco",
+    "ebayUrl": "https://www.ebay.com/itm/100000000006",
+    "tags": [
+      "Art Deco",
+      "Crystal",
+      "curated",
+      "casa-del-gato"
+    ],
+    "featured": false,
+    "createdAt": "2026-05-23T00:00:00.000Z",
+    "updatedAt": "2026-05-23T00:00:00.000Z"
+  },
+  {
+    "id": "cdg-007",
+    "ebayItemId": "EBAY00000007",
+    "title": "Belle \u00c9poque Crystal Lamp Piece #7",
+    "description": "Curated lamps with rich patina, suitable for collectors and refined interiors.",
+    "price": 2163,
+    "currency": "USD",
+    "images": [
+      "https://images.unsplash.com/photo-1500000000007?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1500000001007?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "category": "Lamps",
+    "condition": "New old stock",
+    "shipping": "Free shipping",
+    "material": "Crystal",
+    "era": "Belle \u00c9poque",
+    "ebayUrl": "https://www.ebay.com/itm/100000000007",
+    "tags": [
+      "Belle \u00c9poque",
+      "Crystal",
+      "curated",
+      "casa-del-gato"
+    ],
+    "featured": false,
+    "createdAt": "2026-05-23T00:00:00.000Z",
+    "updatedAt": "2026-05-23T00:00:00.000Z"
+  },
+  {
+    "id": "cdg-008",
+    "ebayItemId": "EBAY00000008",
+    "title": "Mid-Century Mahogany Artwork Piece #8",
+    "description": "Curated artwork with rich patina, suitable for collectors and refined interiors.",
+    "price": 1976,
+    "currency": "USD",
+    "images": [
+      "https://images.unsplash.com/photo-1500000000008?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1500000001008?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "category": "Artwork",
+    "condition": "New old stock",
+    "shipping": "Free shipping",
+    "material": "Mahogany",
+    "era": "Mid-Century",
+    "ebayUrl": "https://www.ebay.com/itm/100000000008",
+    "tags": [
+      "Mid-Century",
+      "Mahogany",
+      "curated",
+      "casa-del-gato"
+    ],
+    "featured": true,
+    "createdAt": "2026-05-23T00:00:00.000Z",
+    "updatedAt": "2026-05-23T00:00:00.000Z"
+  },
+  {
+    "id": "cdg-009",
+    "ebayItemId": "EBAY00000009",
+    "title": "Mid-Century Bronze Brass Decor Piece #9",
+    "description": "Curated brass decor with rich patina, suitable for collectors and refined interiors.",
+    "price": 2103,
+    "currency": "USD",
+    "images": [
+      "https://images.unsplash.com/photo-1500000000009?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1500000001009?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "category": "Brass Decor",
+    "condition": "New old stock",
+    "shipping": "Calculated shipping",
+    "material": "Bronze",
+    "era": "Mid-Century",
+    "ebayUrl": "https://www.ebay.com/itm/100000000009",
+    "tags": [
+      "Mid-Century",
+      "Bronze",
+      "curated",
+      "casa-del-gato"
+    ],
+    "featured": false,
+    "createdAt": "2026-05-23T00:00:00.000Z",
+    "updatedAt": "2026-05-23T00:00:00.000Z"
+  },
+  {
+    "id": "cdg-010",
+    "ebayItemId": "EBAY00000010",
+    "title": "Mid-Century Walnut Brass Decor Piece #10",
+    "description": "Curated brass decor with rich patina, suitable for collectors and refined interiors.",
+    "price": 1913,
+    "currency": "USD",
+    "images": [
+      "https://images.unsplash.com/photo-1500000000010?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1500000001010?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "category": "Brass Decor",
+    "condition": "Refurbished",
+    "shipping": "Calculated shipping",
+    "material": "Walnut",
+    "era": "Mid-Century",
+    "ebayUrl": "https://www.ebay.com/itm/100000000010",
+    "tags": [
+      "Mid-Century",
+      "Walnut",
+      "curated",
+      "casa-del-gato"
+    ],
+    "featured": false,
+    "createdAt": "2026-05-23T00:00:00.000Z",
+    "updatedAt": "2026-05-23T00:00:00.000Z"
+  },
+  {
+    "id": "cdg-011",
+    "ebayItemId": "EBAY00000011",
+    "title": "Belle \u00c9poque Oak Brass Decor Piece #11",
+    "description": "Curated brass decor with rich patina, suitable for collectors and refined interiors.",
+    "price": 151,
+    "currency": "USD",
+    "images": [
+      "https://images.unsplash.com/photo-1500000000011?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1500000001011?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "category": "Brass Decor",
+    "condition": "New old stock",
+    "shipping": "Free shipping",
+    "material": "Oak",
+    "era": "Belle \u00c9poque",
+    "ebayUrl": "https://www.ebay.com/itm/100000000011",
+    "tags": [
+      "Belle \u00c9poque",
+      "Oak",
+      "curated",
+      "casa-del-gato"
+    ],
+    "featured": false,
+    "createdAt": "2026-05-23T00:00:00.000Z",
+    "updatedAt": "2026-05-23T00:00:00.000Z"
+  },
+  {
+    "id": "cdg-012",
+    "ebayItemId": "EBAY00000012",
+    "title": "Mid-Century Walnut Mirror Piece #12",
+    "description": "Curated mirrors with rich patina, suitable for collectors and refined interiors.",
+    "price": 1948,
+    "currency": "USD",
+    "images": [
+      "https://images.unsplash.com/photo-1500000000012?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1500000001012?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "category": "Mirrors",
+    "condition": "New old stock",
+    "shipping": "Free shipping",
+    "material": "Walnut",
+    "era": "Mid-Century",
+    "ebayUrl": "https://www.ebay.com/itm/100000000012",
+    "tags": [
+      "Mid-Century",
+      "Walnut",
+      "curated",
+      "casa-del-gato"
+    ],
+    "featured": true,
+    "createdAt": "2026-05-23T00:00:00.000Z",
+    "updatedAt": "2026-05-23T00:00:00.000Z"
+  },
+  {
+    "id": "cdg-013",
+    "ebayItemId": "EBAY00000013",
+    "title": "Mid-Century Oak Furniture Piece #13",
+    "description": "Curated furniture with rich patina, suitable for collectors and refined interiors.",
+    "price": 202,
+    "currency": "USD",
+    "images": [
+      "https://images.unsplash.com/photo-1500000000013?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1500000001013?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "category": "Furniture",
+    "condition": "New old stock",
+    "shipping": "White-glove shipping",
+    "material": "Oak",
+    "era": "Mid-Century",
+    "ebayUrl": "https://www.ebay.com/itm/100000000013",
+    "tags": [
+      "Mid-Century",
+      "Oak",
+      "curated",
+      "casa-del-gato"
+    ],
+    "featured": false,
+    "createdAt": "2026-05-23T00:00:00.000Z",
+    "updatedAt": "2026-05-23T00:00:00.000Z"
+  },
+  {
+    "id": "cdg-014",
+    "ebayItemId": "EBAY00000014",
+    "title": "Belle \u00c9poque Oak Mirror Piece #14",
+    "description": "Curated mirrors with rich patina, suitable for collectors and refined interiors.",
+    "price": 1232,
+    "currency": "USD",
+    "images": [
+      "https://images.unsplash.com/photo-1500000000014?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1500000001014?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "category": "Mirrors",
+    "condition": "Used",
+    "shipping": "White-glove shipping",
+    "material": "Oak",
+    "era": "Belle \u00c9poque",
+    "ebayUrl": "https://www.ebay.com/itm/100000000014",
+    "tags": [
+      "Belle \u00c9poque",
+      "Oak",
+      "curated",
+      "casa-del-gato"
+    ],
+    "featured": false,
+    "createdAt": "2026-05-23T00:00:00.000Z",
+    "updatedAt": "2026-05-23T00:00:00.000Z"
+  },
+  {
+    "id": "cdg-015",
+    "ebayItemId": "EBAY00000015",
+    "title": "Georgian Revival Porcelain Furniture Piece #15",
+    "description": "Curated furniture with rich patina, suitable for collectors and refined interiors.",
+    "price": 1254,
+    "currency": "USD",
+    "images": [
+      "https://images.unsplash.com/photo-1500000000015?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1500000001015?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "category": "Furniture",
+    "condition": "Used",
+    "shipping": "Calculated shipping",
+    "material": "Porcelain",
+    "era": "Georgian Revival",
+    "ebayUrl": "https://www.ebay.com/itm/100000000015",
+    "tags": [
+      "Georgian Revival",
+      "Porcelain",
+      "curated",
+      "casa-del-gato"
+    ],
+    "featured": false,
+    "createdAt": "2026-05-23T00:00:00.000Z",
+    "updatedAt": "2026-05-23T00:00:00.000Z"
+  },
+  {
+    "id": "cdg-016",
+    "ebayItemId": "EBAY00000016",
+    "title": "Edwardian Crystal Mirror Piece #16",
+    "description": "Curated mirrors with rich patina, suitable for collectors and refined interiors.",
+    "price": 1281,
+    "currency": "USD",
+    "images": [
+      "https://images.unsplash.com/photo-1500000000016?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1500000001016?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "category": "Mirrors",
+    "condition": "New old stock",
+    "shipping": "White-glove shipping",
+    "material": "Crystal",
+    "era": "Edwardian",
+    "ebayUrl": "https://www.ebay.com/itm/100000000016",
+    "tags": [
+      "Edwardian",
+      "Crystal",
+      "curated",
+      "casa-del-gato"
+    ],
+    "featured": true,
+    "createdAt": "2026-05-23T00:00:00.000Z",
+    "updatedAt": "2026-05-23T00:00:00.000Z"
+  },
+  {
+    "id": "cdg-017",
+    "ebayItemId": "EBAY00000017",
+    "title": "Art Deco Crystal Brass Decor Piece #17",
+    "description": "Curated brass decor with rich patina, suitable for collectors and refined interiors.",
+    "price": 2386,
+    "currency": "USD",
+    "images": [
+      "https://images.unsplash.com/photo-1500000000017?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1500000001017?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "category": "Brass Decor",
+    "condition": "Refurbished",
+    "shipping": "Calculated shipping",
+    "material": "Crystal",
+    "era": "Art Deco",
+    "ebayUrl": "https://www.ebay.com/itm/100000000017",
+    "tags": [
+      "Art Deco",
+      "Crystal",
+      "curated",
+      "casa-del-gato"
+    ],
+    "featured": false,
+    "createdAt": "2026-05-23T00:00:00.000Z",
+    "updatedAt": "2026-05-23T00:00:00.000Z"
+  },
+  {
+    "id": "cdg-018",
+    "ebayItemId": "EBAY00000018",
+    "title": "Edwardian Walnut Collectible Piece #18",
+    "description": "Curated collectibles with rich patina, suitable for collectors and refined interiors.",
+    "price": 1253,
+    "currency": "USD",
+    "images": [
+      "https://images.unsplash.com/photo-1500000000018?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1500000001018?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "category": "Collectibles",
+    "condition": "Used",
+    "shipping": "Free shipping",
+    "material": "Walnut",
+    "era": "Edwardian",
+    "ebayUrl": "https://www.ebay.com/itm/100000000018",
+    "tags": [
+      "Edwardian",
+      "Walnut",
+      "curated",
+      "casa-del-gato"
+    ],
+    "featured": false,
+    "createdAt": "2026-05-23T00:00:00.000Z",
+    "updatedAt": "2026-05-23T00:00:00.000Z"
+  },
+  {
+    "id": "cdg-019",
+    "ebayItemId": "EBAY00000019",
+    "title": "Edwardian Crystal Mirror Piece #19",
+    "description": "Curated mirrors with rich patina, suitable for collectors and refined interiors.",
+    "price": 103,
+    "currency": "USD",
+    "images": [
+      "https://images.unsplash.com/photo-1500000000019?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1500000001019?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "category": "Mirrors",
+    "condition": "Used",
+    "shipping": "Calculated shipping",
+    "material": "Crystal",
+    "era": "Edwardian",
+    "ebayUrl": "https://www.ebay.com/itm/100000000019",
+    "tags": [
+      "Edwardian",
+      "Crystal",
+      "curated",
+      "casa-del-gato"
+    ],
+    "featured": false,
+    "createdAt": "2026-05-23T00:00:00.000Z",
+    "updatedAt": "2026-05-23T00:00:00.000Z"
+  },
+  {
+    "id": "cdg-020",
+    "ebayItemId": "EBAY00000020",
+    "title": "Art Deco Oak Mirror Piece #20",
+    "description": "Curated mirrors with rich patina, suitable for collectors and refined interiors.",
+    "price": 2071,
+    "currency": "USD",
+    "images": [
+      "https://images.unsplash.com/photo-1500000000020?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1500000001020?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "category": "Mirrors",
+    "condition": "Used",
+    "shipping": "Free shipping",
+    "material": "Oak",
+    "era": "Art Deco",
+    "ebayUrl": "https://www.ebay.com/itm/100000000020",
+    "tags": [
+      "Art Deco",
+      "Oak",
+      "curated",
+      "casa-del-gato"
+    ],
+    "featured": true,
+    "createdAt": "2026-05-23T00:00:00.000Z",
+    "updatedAt": "2026-05-23T00:00:00.000Z"
+  },
+  {
+    "id": "cdg-021",
+    "ebayItemId": "EBAY00000021",
+    "title": "Victorian Porcelain Collectible Piece #21",
+    "description": "Curated collectibles with rich patina, suitable for collectors and refined interiors.",
+    "price": 1555,
+    "currency": "USD",
+    "images": [
+      "https://images.unsplash.com/photo-1500000000021?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1500000001021?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "category": "Collectibles",
+    "condition": "Refurbished",
+    "shipping": "Calculated shipping",
+    "material": "Porcelain",
+    "era": "Victorian",
+    "ebayUrl": "https://www.ebay.com/itm/100000000021",
+    "tags": [
+      "Victorian",
+      "Porcelain",
+      "curated",
+      "casa-del-gato"
+    ],
+    "featured": false,
+    "createdAt": "2026-05-23T00:00:00.000Z",
+    "updatedAt": "2026-05-23T00:00:00.000Z"
+  },
+  {
+    "id": "cdg-022",
+    "ebayItemId": "EBAY00000022",
+    "title": "Mid-Century Bronze Lamp Piece #22",
+    "description": "Curated lamps with rich patina, suitable for collectors and refined interiors.",
+    "price": 519,
+    "currency": "USD",
+    "images": [
+      "https://images.unsplash.com/photo-1500000000022?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1500000001022?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "category": "Lamps",
+    "condition": "Used",
+    "shipping": "Calculated shipping",
+    "material": "Bronze",
+    "era": "Mid-Century",
+    "ebayUrl": "https://www.ebay.com/itm/100000000022",
+    "tags": [
+      "Mid-Century",
+      "Bronze",
+      "curated",
+      "casa-del-gato"
+    ],
+    "featured": false,
+    "createdAt": "2026-05-23T00:00:00.000Z",
+    "updatedAt": "2026-05-23T00:00:00.000Z"
+  },
+  {
+    "id": "cdg-023",
+    "ebayItemId": "EBAY00000023",
+    "title": "Mid-Century Brass Furniture Piece #23",
+    "description": "Curated furniture with rich patina, suitable for collectors and refined interiors.",
+    "price": 107,
+    "currency": "USD",
+    "images": [
+      "https://images.unsplash.com/photo-1500000000023?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1500000001023?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "category": "Furniture",
+    "condition": "Refurbished",
+    "shipping": "White-glove shipping",
+    "material": "Brass",
+    "era": "Mid-Century",
+    "ebayUrl": "https://www.ebay.com/itm/100000000023",
+    "tags": [
+      "Mid-Century",
+      "Brass",
+      "curated",
+      "casa-del-gato"
+    ],
+    "featured": false,
+    "createdAt": "2026-05-23T00:00:00.000Z",
+    "updatedAt": "2026-05-23T00:00:00.000Z"
+  },
+  {
+    "id": "cdg-024",
+    "ebayItemId": "EBAY00000024",
+    "title": "Edwardian Giltwood Clock Piece #24",
+    "description": "Curated clocks with rich patina, suitable for collectors and refined interiors.",
+    "price": 964,
+    "currency": "USD",
+    "images": [
+      "https://images.unsplash.com/photo-1500000000024?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1500000001024?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "category": "Clocks",
+    "condition": "Used",
+    "shipping": "Calculated shipping",
+    "material": "Giltwood",
+    "era": "Edwardian",
+    "ebayUrl": "https://www.ebay.com/itm/100000000024",
+    "tags": [
+      "Edwardian",
+      "Giltwood",
+      "curated",
+      "casa-del-gato"
+    ],
+    "featured": true,
+    "createdAt": "2026-05-23T00:00:00.000Z",
+    "updatedAt": "2026-05-23T00:00:00.000Z"
+  }
+]
