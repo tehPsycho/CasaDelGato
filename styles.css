@@ -44,3 +44,13 @@ form .grid{grid-template-columns:repeat(2,minmax(0,1fr))}
 .photo-help .card-body{padding:.65rem}.photo-help h3{margin:.1rem 0 .35rem;font-size:1rem}.photo-help ul{margin:.2rem 0 0;padding-left:1rem;font-size:.92rem}
 .filters-top{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:.65rem;margin-bottom:.85rem}.filters-top p{margin:0}
 @media (max-width:860px){.contact-layout,.footer-grid{grid-template-columns:1fr}.menu-btn{display:block}.nav-links{display:none;width:100%;flex-direction:column;align-items:center}.nav-links.open{display:flex}form .grid{grid-template-columns:1fr}}
+
+.learn-tabs-wrap{padding:1rem 1rem 1.2rem}
+.learn-tab-list{display:flex;gap:.55rem;flex-wrap:wrap;margin-bottom:1rem}
+.learn-tab-btn{border:1px solid #ceb2df;background:#fff;border-radius:.65rem;padding:.5rem .8rem;cursor:pointer;font-weight:700;color:var(--purple-deep)}
+.learn-tab-btn.active{background:var(--purple);color:#fff;border-color:var(--purple)}
+.learn-tab-panel{display:none}
+.learn-tab-panel.active{display:block}
+.learn-tab-panel h3{margin-top:.3rem}
+.learn-tab-panel .lead{max-width:780px}
+.learn-subsection{margin-top:.8rem}
