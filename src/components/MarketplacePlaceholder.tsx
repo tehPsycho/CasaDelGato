@@ -14,7 +14,7 @@ export function MarketplacePlaceholder() {
           <p className="text-sm uppercase tracking-[0.22em] text-bronze/90">Marketplace</p>
           <h2 className="mt-3 text-3xl">Casa Del Gato Marketplace (Under Construction)</h2>
           <p className="mt-3 max-w-3xl text-parchment/75">
-            The full online marketplace is being prepared. For now, use our direct eBay store link to browse the active listings.
+            The full online marketplace is intentionally paused while we build out the site theme, formatting, and antique education sections. For now, use our direct eBay store link to browse active listings.
           </p>
 
           <div className="mt-6 grid gap-4 md:grid-cols-3">
