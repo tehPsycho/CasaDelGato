@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { ProductCard } from '@/components/ProductCard';
 import { productRepository } from '@/lib/data/products';
+import { MarketplacePlaceholder } from '@/components/MarketplacePlaceholder';
 
 const learningGuides = [
   {
@@ -58,6 +59,8 @@ export default function HomePage() {
           ))}
         </div>
       </section>
+
+      <MarketplacePlaceholder />
 
       <section className="mx-auto max-w-7xl px-6 py-12">
         <h2 className="text-2xl">Featured Products</h2>
