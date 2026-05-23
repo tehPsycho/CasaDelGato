@@ -30,7 +30,7 @@ export default function ProductDetail({ params }: { params: { id: string } }) {
             <li>Era: {product.era}</li>
           </ul>
           <div className="mt-6 flex flex-wrap gap-2">{product.tags.map((tag) => <span className="rounded-full border border-bronze/40 px-3 py-1 text-xs" key={tag}>{tag}</span>)}</div>
-          <a className="mt-8 inline-block rounded-md bg-bronze px-6 py-3 font-semibold text-black" href={product.ebayUrl} target="_blank">Buy on eBay</a>
+          <a className="mt-8 inline-block rounded-md bg-bronze px-6 py-3 font-semibold text-black" href={product.ebayUrl} target="_blank" rel="noreferrer">Buy on eBay</a>
         </article>
       </section>
       <section className="mt-12">
