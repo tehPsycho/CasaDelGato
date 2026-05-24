@@ -31,3 +31,48 @@ function bootstrap(active){
   menuBtn.setAttribute('aria-expanded','false');
  });
 }
+
+
+async function loadListings(){
+ try{
+  const response=await fetch('data/listings.json',{cache:'no-store'});
+  if(!response.ok) throw new Error(`HTTP ${response.status}`);
+  const payload=await response.json();
+  if(!payload.items||!Array.isArray(payload.items)||payload.items.length===0) throw new Error('No live items');
+  return payload.items.map((item)=>(
+   {
+    title:item.title||'Untitled listing',
+    category:item.category||'Uncategorized',
+    style:item.category||'Uncategorized',
+    material:'See listing',
+    condition:item.condition||'Unknown',
+    featured:false,
+    price:item.price&&item.currency?`${item.currency} ${item.price}`:'View on eBay',
+    image_url:item.image_url||'',
+    item_web_url:item.item_web_url||EBAY_URL
+   }
+  ));
+ }catch(_error){
+  return listingMockData.map((item)=>({...item,image_url:'',item_web_url:EBAY_URL}));
+ }
+}
+
+function initializeShopPage(){
+ const [qv,cat,style,mat,feat,results,chips]=['q','cat','style','mat','feat','results','chips'].map((id)=>document.getElementById(id));
+ if(!qv||!cat||!style||!mat||!feat||!results||!chips)return;
+
+ loadListings().then((listings)=>{
+  const cats=[...new Set(listings.map((x)=>x.category))],styles=[...new Set(listings.map((x)=>x.style))],mats=[...new Set(listings.map((x)=>x.material))];
+  for(const [id,arr] of [['cat',cats],['style',styles],['mat',mats]]) arr.forEach((v)=>document.getElementById(id).insertAdjacentHTML('beforeend',`<option>${v}</option>`));
+  chips.innerHTML=cats.map((c)=>`<span class='tag'>${c}</span>`).join('');
+
+  function render(){
+   const q=qv.value.toLowerCase(),c=cat.value,s=style.value,m=mat.value,f=feat.value;
+   const list=listings.filter((i)=>(i.title+i.category+i.style).toLowerCase().includes(q)&&(c==='all'||i.category===c)&&(s==='all'||i.style===s)&&(m==='all'||i.material===m)&&(f==='all'||i.featured));
+   results.innerHTML=list.map((i)=>`<article class='card'>${i.image_url?`<img src='${i.image_url}' alt='${i.title}' loading='lazy'>`:ph(i.title)}<div class='card-body'><h3>${i.title}</h3><p><span class='tag'>${i.category}</span> <span class='tag'>${i.style}</span></p><p>${i.condition}. Material: ${i.material}.</p><p><strong>${i.price}</strong></p><a class='btn alt' target='_blank' rel='noopener' href='${i.item_web_url||EBAY_URL}'>View on eBay</a></div></article>`).join('')||'<p>No listings match your filters.</p>';
+  }
+
+  [qv,cat,style,mat,feat].forEach((el)=>el.addEventListener('input',render));
+  render();
+ });
+}
